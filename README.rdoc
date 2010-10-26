@@ -41,8 +41,8 @@ Pull requests with updates/enhancements are always welcome!
 
 == Contributors
 
-* [Cucumber mailing list][http://groups.google.com/group/cukes/browse_thread/thread/297163800eaf2968?pli=1]
-* [Todd Huss][http://gabrito.com]
+* {Cucumber mailing list}[http://groups.google.com/group/cukes/browse_thread/thread/297163800eaf2968?pli=1]
+* {Todd Huss}[http://gabrito.com]
 
 
 
