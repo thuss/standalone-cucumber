@@ -4,9 +4,9 @@
 
 Sometimes you inherit a non rails or non rack based web app such as PHP, Perl, Java / JEE, etc. I like using cucumber for functional testing so I put together this project structure to use as a starting point for testing web based applications.
 
-I'm currently using Capybara with Webdriver (Selenium) but you can easily switch this to use Culerity or Webrat.
+I've included a simple search.feature examples that uses Google. To switch to use your own development or staging server adjust the URL in features/support/env.rb. I have this example project setup to use Capybara with Webdriver (Selenium) but you can easily switch this to use Culerity or Webrat by editing features/support/env.rb.
 
-Pull requests with updates/enhancements are always welcome!
+Pull requests with updates/enhancements/bug fixes are always welcome!
 
 == Project Layout
 
