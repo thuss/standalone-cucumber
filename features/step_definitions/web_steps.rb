@@ -1,5 +1,5 @@
 Given /^I am on the home page$/ do
-  visit('/')
+  visit('/ncr')
 end
 
 Given /^I have entered "([^"]*)" into the "([^"]*)" field$/ do |text, field|
@@ -11,7 +11,7 @@ When /^I click the "([^"]*)" button$/ do |button_text|
 end
 
 Then /^I should see "([^"]*)"$/ do |text|
-  page.has_content? text
+  page.should have_content(text)
 end
 
 
