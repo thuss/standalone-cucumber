@@ -6,5 +6,4 @@ Feature: Search
   Scenario: Search for cucumber
     Given I am on the home page
     And I have entered "cucumber bdd" into the "q" field
-    When I click the "Search" button
     Then I should see "Cucumber - Making BDD fun"
