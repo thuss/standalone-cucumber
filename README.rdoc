@@ -20,11 +20,11 @@ Pull requests with updates/enhancements/bug fixes are always welcome!
 * Ruby http://www.ruby-lang.org/en/downloads/
 * Ruby Gems http://rubygems.org/
 * Bundler: sudo gem install bundler rake
+* PhantomJS: {install phantomjs}[https://github.com/teampoltergeist/poltergeist#installing-phantomjs]
 
 == Configuration
 
 * sudo bundle install
-* {Install PhantomJS}[https://github.com/teampoltergeist/poltergeist#installing-phantomjs]
 
 == Running Features
 
