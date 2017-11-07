@@ -24,6 +24,7 @@ Pull requests with updates/enhancements/bug fixes are always welcome!
 == Configuration
 
 * sudo bundle install
+* {Install PhantomJS}[https://github.com/teampoltergeist/poltergeist#installing-phantomjs]
 
 == Running Features
 
