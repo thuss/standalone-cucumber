@@ -10,4 +10,7 @@ Then /^I should see "([^"]*)"$/ do |text|
   page.should have_content(text)
 end
 
-
+Given(/^I search for "(.*?)"$/) do |term|
+  fill_in 'q', :with => term
+  click_button 'Google Search'
+end

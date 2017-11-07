@@ -5,5 +5,5 @@ Feature: Search
 
   Scenario: Search for cucumber
     Given I am on the home page
-    And I have entered "cucumber bdd" into the "q" field
-    Then I should see "Cucumber - Making BDD fun"
+    And I search for "cucumber bdd"
+    Then I should see "Cucumber is for Behaviour-Driven Development"
