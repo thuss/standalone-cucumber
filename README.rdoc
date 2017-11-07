@@ -4,7 +4,7 @@
 
 Sometimes you inherit a non Rails or non Rack based web app such as PHP, Perl, Java / J2EE, etc. I like using cucumber for functional testing so I put together this project structure to use as a starting point for testing non-Ruby web-based applications.
 
-I've included a simple search.feature example that uses Google. To switch to use your own development or staging server, adjust the URL in features/support/env.rb. This example project setup uses Capybara with Webdriver (Selenium) but you can easily switch this to use Culerity or Webrat by editing features/support/env.rb.
+I've included a simple search.feature example that uses Google. To switch to use your own development or staging server, adjust the URL in features/support/env.rb. This example project setup uses Capybara with Poltergeist but you can easily switch this to use Webdriver (Selenium) or Culerity or Webrat by editing features/support/env.rb.
 
 Pull requests with updates/enhancements/bug fixes are always welcome!
 
