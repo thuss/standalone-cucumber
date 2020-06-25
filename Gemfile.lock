@@ -42,7 +42,7 @@ GEM
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
     public_suffix (3.0.0)
-    rack (2.0.3)
+    rack (2.2.3)
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
     rake (12.2.1)
